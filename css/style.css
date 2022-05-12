@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*, *:before, *:after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus, :active {
+   outline: none;
+}
+
+a:focus, a:active {
+   outline: none;
+}
+
+nav, footer, header, aside {
+   display: block;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a, a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+/*--------------------*/
+.navbar {
+   width: 100%;
+}
+
+.header button, .header .desc, .header p, .header .text, .navbar a {
+   color: #FFFFFF;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+.navbar {
+   background: #000000;
+   height: 71px;
+}
+.navbar:nth-child(1) {
+   padding-left: 150px;
+   padding-top: 21px;
+}
+.navbar a:nth-child(2) {
+   font-size: 14px;
+   margin-left: 661px;
+   display: inline-block;
+   padding-top: 8px;
+   opacity: 0.69;
+}
+.navbar a:nth-child(3) {
+   margin-left: 30px;
+   opacity: 0.69;
+}
+.navbar a:nth-child(4) {
+   margin-left: 30px;
+   opacity: 0.69;
+}
+.navbar a:nth-child(5) {
+   margin-left: 30px;
+   opacity: 0.69;
+}
+.navbar a:nth-child(6) {
+   margin-left: 30px;
+   opacity: 0.69;
+}
+.navbar a:hover {
+   opacity: 1;
+   text-decoration: underline;
+}
+
+.header {
+   height: 586px;
+   background-color: #9A9A9A;
+}
+.header .text {
+   font-size: 24px;
+   text-align: center;
+   padding-top: 33px;
+   opacity: 0.29;
+}
+.header img.logo {
+   margin-top: 20px;
+   margin-left: 150px;
+   width: 175px;
+}
+.header p {
+   font-size: 36px;
+   margin-top: 20px;
+   margin-left: 150px;
+   line-height: 45px;
+}
+.header .line {
+   margin-top: 25px;
+   margin-left: 150px;
+   width: 74px;
+   height: 16px;
+}
+.header .desc {
+   opacity: 0.8;
+   font-size: 16px;
+   line-height: 25px;
+}
+.header button {
+   border: 2px solid #FFFFFF;
+   padding: 10px 23px;
+   background-color: #9A9A9A;
+   font-size: 15px;
+   margin-top: 35px;
+   margin-left: 150px;
+   font-weight: bold;
+}
+.header button:hover {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+.header .sign {
+   margin-top: 50px;
+   margin-right: 130px;
+}
