@@ -1,0 +1,102 @@
+@import "nullstyle.scss";
+%pros{
+	width: 100%;
+}
+%text{
+	color: #FFFFFF;
+}
+body{
+	font-family: sans-serif;
+}
+.navbar{
+	background: #000000;
+	@extend %pros;
+	height: 71px;
+	&:nth-child(1){
+		padding-left: 150px;
+		padding-top: 21px;
+	}
+	a{
+		@extend %text;
+		&:nth-child(2){
+		font-size: 14px;
+		margin-left: 811px - 150px;
+		display: inline-block;
+		padding-top: 8px;
+		opacity: 0.69;
+		}
+		&:nth-child(3){
+			margin-left: 30px;
+			opacity: 0.69;
+		}
+		&:nth-child(4){
+			margin-left: 30px;
+			opacity: 0.69;
+		}
+		&:nth-child(5){
+			margin-left: 30px;
+			opacity: 0.69;
+		}
+		&:nth-child(6){
+			margin-left: 30px;
+			opacity: 0.69;
+		}
+		&:hover{
+			opacity: 1;
+			text-decoration: underline;
+		}
+	}
+}
+.header{
+	height: 586px;
+	background-color: #9A9A9A;
+	.text{
+		font-size: 24px;
+		text-align: center;
+		padding-top: 33px;
+		@extend %text;
+		opacity: 0.29;
+	}
+	img.logo{
+		margin-top: 20px;
+		margin-left: 150px;
+		width: 175px;
+	}
+	p{
+		font-size: 36px;
+		margin-top: 20px;
+		margin-left: 150px;
+		line-height: 45px;
+		@extend %text;
+	}
+	.line{
+		margin-top: 25px;
+		margin-left: 150px;
+		width: 74px;
+		height: 16px;
+	}
+	.desc{
+		@extend %text;
+		opacity: 0.8;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	button{
+		border: 2px solid #FFFFFF;
+		padding: 10px 23px;
+		background-color: #9A9A9A;
+		@extend %text;
+		font-size: 15px;
+		margin-top: 35px;
+		margin-left: 150px;
+		font-weight: bold;
+		&:hover{
+			background-color: #FFFFFF;
+			color: #000000;
+		}
+	}
+	.sign{
+		margin-top: 50px;
+		margin-right: 130px;
+	}
+}
